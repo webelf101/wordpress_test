@@ -1,0 +1,575 @@
+@font-face {
+  font-family: 'careerfy';
+  src:  url('fonts/careerfy.eot?fdfmkl');
+  src:  url('fonts/careerfy.eot?fdfmkl#iefix') format('embedded-opentype'),
+    url('fonts/careerfy.ttf?fdfmkl') format('truetype'),
+    url('fonts/careerfy.woff?fdfmkl') format('woff'),
+    url('fonts/careerfy.svg?fdfmkl#careerfy') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.careerfy-icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'careerfy' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.careerfy-circle-fill:before {
+  content: "\e900";
+}
+.careerfy-plus-light:before {
+  content: "\e909";
+}
+.careerfy-down-arrow:before {
+  content: "\e90e";
+}
+.careerfy-plus-fill-circle:before {
+  content: "\e90f";
+}
+.careerfy-shoping-bag:before {
+  content: "\e913";
+}
+.careerfy-chef-plate:before {
+  content: "\e923";
+}
+.careerfy-gps-o:before {
+  content: "\e92e";
+}
+.careerfy-edit-square:before {
+  content: "\e92f";
+}
+.careerfy-responsive:before {
+  content: "\e94e";
+}
+.careerfy-user-blank:before {
+  content: "\e963";
+}
+.careerfy-edit-pencil:before {
+  content: "\e9a4";
+}
+.careerfy-user-support:before {
+  content: "\e9cc";
+}
+.careerfy-pin:before {
+  content: "\ea41";
+}
+.careerfy-calendar:before {
+  content: "\ea42";
+}
+.careerfy-next:before {
+  content: "\ea43";
+}
+.careerfy-briefcase-work:before {
+  content: "\ea44";
+}
+.careerfy-avatar:before {
+  content: "\ea45";
+}
+.careerfy-portfolio:before {
+  content: "\ea46";
+}
+.careerfy-visit:before {
+  content: "\ea47";
+}
+.careerfy-quote:before {
+  content: "\ea48";
+}
+.careerfy-next-long:before {
+  content: "\ea49";
+}
+.careerfy-gear:before {
+  content: "\ea4a";
+}
+.careerfy-comment:before {
+  content: "\ea4b";
+}
+.careerfy-heart:before {
+  content: "\ea4c";
+}
+.careerfy-phone:before {
+  content: "\ea4d";
+}
+.careerfy-google-play:before {
+  content: "\ea4e";
+}
+.careerfy-star:before {
+  content: "\ea4f";
+}
+.careerfy-mail:before {
+  content: "\ea50";
+}
+.careerfy-phone-1:before {
+  content: "\ea51";
+}
+.careerfy-facebook:before {
+  content: "\ea52";
+}
+.careerfy-twitter:before {
+  content: "\ea53";
+}
+.careerfy-google-plus:before {
+  content: "\ea54";
+}
+.careerfy-plane:before {
+  content: "\ea55";
+}
+.careerfy-linkedin:before {
+  content: "\ea56";
+}
+.careerfy-pinterest:before {
+  content: "\ea57";
+}
+.careerfy-next-2:before {
+  content: "\ea58";
+}
+.careerfy-user:before {
+  content: "\ea59";
+}
+.careerfy-upload:before {
+  content: "\ea5a";
+}
+.careerfy-user-outline-1:before {
+  content: "\ea80";
+}
+.careerfy-search-outline:before {
+  content: "\ea98";
+}
+.careerfy-phrase:before {
+  content: "\ea9a";
+}
+.careerfy-play:before {
+  content: "\ea9b";
+}
+.careerfy-star-fill-smoth:before {
+  content: "\ea9c";
+}
+.careerfy-clock:before {
+  content: "\ea9d";
+}
+.careerfy-comment-outline:before {
+  content: "\ea9e";
+}
+.careerfy-like:before {
+  content: "\ea9f";
+}
+.careerfy-user-1:before {
+  content: "\eaa0";
+}
+.careerfy-login:before {
+  content: "\eaa1";
+}
+.careerfy-password:before {
+  content: "\eaa9";
+}
+.careerfy-people:before {
+  content: "\e901";
+}
+.careerfy-target:before {
+  content: "\e902";
+}
+.careerfy-human-resources:before {
+  content: "\e903";
+}
+.careerfy-arrow-left-long:before {
+  content: "\e904";
+}
+.careerfy-twitter1:before {
+  content: "\e905";
+}
+.careerfy-hospital:before {
+  content: "\e906";
+}
+.careerfy-money:before {
+  content: "\e907";
+}
+.careerfy-apple:before {
+  content: "\e908";
+}
+.careerfy-user-plus:before {
+  content: "\e90a";
+}
+.careerfy-diamond:before {
+  content: "\e90b";
+}
+.careerfy-map-pin-fill:before {
+  content: "\e90c";
+}
+.careerfy-play-circular:before {
+  content: "\e90d";
+}
+.careerfy-arrow-pointing-to-right:before {
+  content: "\e910";
+}
+.careerfy-arrow-pointing-to-left:before {
+  content: "\e911";
+}
+.careerfy-user1:before {
+  content: "\e912";
+}
+.careerfy-login1:before {
+  content: "\e914";
+}
+.careerfy-android-logo:before {
+  content: "\e915";
+}
+.careerfy-resume-document:before {
+  content: "\e916";
+}
+.careerfy-paper:before {
+  content: "\e917";
+}
+.careerfy-coding:before {
+  content: "\e918";
+}
+.careerfy-office:before {
+  content: "\e919";
+}
+.careerfy-clock-hours:before {
+  content: "\e91a";
+}
+.careerfy-company-workers:before {
+  content: "\e91b";
+}
+.careerfy-graphic:before {
+  content: "\e91c";
+}
+.careerfy-support:before {
+  content: "\e91d";
+}
+.careerfy-pen:before {
+  content: "\e91e";
+}
+.careerfy-search-papper:before {
+  content: "\e91f";
+}
+.careerfy-handshake:before {
+  content: "\e920";
+}
+.careerfy-office-building:before {
+  content: "\e921";
+}
+.careerfy-check-square:before {
+  content: "\e922";
+}
+.careerfy-arrow-right-circular-fill:before {
+  content: "\e924";
+}
+.careerfy-arrow-down-circular-fill:before {
+  content: "\e925";
+}
+.careerfy-building:before {
+  content: "\e926";
+}
+.careerfy-curriculum:before {
+  content: "\e927";
+}
+.careerfy-user-line-double:before {
+  content: "\e928";
+}
+.careerfy-discuss-issue:before {
+  content: "\e929";
+}
+.careerfy-newspaper:before {
+  content: "\e92a";
+}
+.careerfy-fax:before {
+  content: "\e92b";
+}
+.careerfy-placeholder:before {
+  content: "\e92c";
+}
+.careerfy-linkedin-fill:before {
+  content: "\e92d";
+}
+.careerfy-facebook1:before {
+  content: "\e930";
+}
+.careerfy-summary:before {
+  content: "\e931";
+}
+.careerfy-calendar-line:before {
+  content: "\e932";
+}
+.careerfy-heart-fill:before {
+  content: "\e933";
+}
+.careerfy-check-box-fill:before {
+  content: "\e934";
+}
+.careerfy-check-box-empty:before {
+  content: "\e935";
+}
+.careerfy-checked:before {
+  content: "\e936";
+}
+.careerfy-linkedin1:before {
+  content: "\e937";
+}
+.careerfy-user-circular:before {
+  content: "\e938";
+}
+.careerfy-star-empty:before {
+  content: "\e939";
+}
+.careerfy-upload1:before {
+  content: "\e93a";
+}
+.careerfy-plus-circular:before {
+  content: "\e93b";
+}
+.careerfy-credit-card-line:before {
+  content: "\e93c";
+}
+.careerfy-star-fill:before {
+  content: "\e93d";
+}
+.careerfy-right-arrow-long:before {
+  content: "\e93e";
+}
+.careerfy-credit-card:before {
+  content: "\e93f";
+}
+.careerfy-time:before {
+  content: "\e940";
+}
+.careerfy-folder:before {
+  content: "\e941";
+}
+.careerfy-group:before {
+  content: "\e942";
+}
+.careerfy-linkedin-circular:before {
+  content: "\e943";
+}
+.careerfy-twitter-circular:before {
+  content: "\e944";
+}
+.careerfy-facebook-circular:before {
+  content: "\e945";
+}
+.careerfy-internet:before {
+  content: "\e946";
+}
+.careerfy-calendar1:before {
+  content: "\e947";
+}
+.careerfy-view:before {
+  content: "\e948";
+}
+.careerfy-rubbish:before {
+  content: "\e949";
+}
+.careerfy-edit1:before {
+  content: "\e94a";
+}
+.careerfy-resume-user:before {
+  content: "\e94b";
+}
+.careerfy-logout:before {
+  content: "\e94c";
+}
+.careerfy-multimedia:before {
+  content: "\e94d";
+}
+.careerfy-id-card:before {
+  content: "\e94f";
+}
+.careerfy-alarm:before {
+  content: "\e950";
+}
+.careerfy-briefcase-time:before {
+  content: "\e951";
+}
+.careerfy-resume:before {
+  content: "\e952";
+}
+.careerfy-google-plus-circular-fill:before {
+  content: "\e953";
+}
+.careerfy-add:before {
+  content: "\e954";
+}
+.careerfy-download-arrow:before {
+  content: "\e955";
+}
+.careerfy-technology:before {
+  content: "\e956";
+}
+.careerfy-envelope-line:before {
+  content: "\e957";
+}
+.careerfy-trophy:before {
+  content: "\e958";
+}
+.careerfy-design-skills:before {
+  content: "\e959";
+}
+.careerfy-degree-cap:before {
+  content: "\e95a";
+}
+.careerfy-network:before {
+  content: "\e95b";
+}
+.careerfy-user-line:before {
+  content: "\e95c";
+}
+.careerfy-briefcase:before {
+  content: "\e95d";
+}
+.careerfy-social-media:before {
+  content: "\e95e";
+}
+.careerfy-salary:before {
+  content: "\e95f";
+}
+.careerfy-check-circular-fill:before {
+  content: "\e960";
+}
+.careerfy-sort:before {
+  content: "\e961";
+}
+.careerfy-envelope:before {
+  content: "\e962";
+}
+.careerfy-add-list:before {
+  content: "\e964";
+}
+.careerfy-squares:before {
+  content: "\e965";
+}
+.careerfy-list:before {
+  content: "\e966";
+}
+.careerfy-up-arrow:before {
+  content: "\e967";
+}
+.careerfy-right-arrow:before {
+  content: "\e968";
+}
+.careerfy-instagram-circular-fill:before {
+  content: "\e969";
+}
+.careerfy-linkedin-circular-fill:before {
+  content: "\e96a";
+}
+.careerfy-dribbble-circular-fill:before {
+  content: "\e96b";
+}
+.careerfy-twitter-circular-fill:before {
+  content: "\e96c";
+}
+.careerfy-facebook-circular-fill:before {
+  content: "\e96d";
+}
+.careerfy-play-button:before {
+  content: "\e96e";
+}
+.careerfy-arrow-right-circular:before {
+  content: "\e96f";
+}
+.careerfy-arrow-left-circular-fill:before {
+  content: "\e970";
+}
+.careerfy-two-quotes:before {
+  content: "\e971";
+}
+.careerfy-left-quote:before {
+  content: "\e972";
+}
+.careerfy-filter-tool-black-shape:before {
+  content: "\e973";
+}
+.careerfy-map-pin:before {
+  content: "\e974";
+}
+.careerfy-heart1:before {
+  content: "\e975";
+}
+.careerfy-business:before {
+  content: "\e976";
+}
+.careerfy-fast-food:before {
+  content: "\e977";
+}
+.careerfy-books:before {
+  content: "\e978";
+}
+.careerfy-antenna:before {
+  content: "\e979";
+}
+.careerfy-hospital2:before {
+  content: "\e97a";
+}
+.careerfy-accounting:before {
+  content: "\e97b";
+}
+.careerfy-car:before {
+  content: "\e97c";
+}
+.careerfy-engineer:before {
+  content: "\e97d";
+}
+.careerfy-search:before {
+  content: "\e97e";
+}
+.careerfy-down-arrow1:before {
+  content: "\e97f";
+}
+.careerfy-location:before {
+  content: "\e980";
+}
+.careerfy-briefcase-line:before {
+  content: "\e981";
+}
+.careerfy-arrow-up-circular:before {
+  content: "\e982";
+}
+.careerfy-upload-arrow:before {
+  content: "\e983";
+}
+.careerfy-arrow-right-fill:before {
+  content: "\ea3c";
+}
+.careerfy-arrow-left:before {
+  content: "\ea40";
+}
+.careerfy-arrow-right-bold:before {
+  content: "\eaef";
+}
+.careerfy-arrow-right:before {
+  content: "\eb2d";
+}
+.careerfy-list-sign:before {
+  content: "\eb44";
+}
+.careerfy-grid-square:before {
+  content: "\eb45";
+}
+.careerfy-arrow-right-light:before {
+  content: "\eb60";
+}
+.careerfy-map-location-pin:before {
+  content: "\eb6e";
+}
+.careerfy-check-mark:before {
+  content: "\eb73";
+}
+.careerfy-map-pin-square:before {
+  content: "\eb76";
+}
+.careerfy-edit-tool:before {
+  content: "\eb7d";
+}
+.careerfy-building-office:before {
+  content: "\eb92";
+}
